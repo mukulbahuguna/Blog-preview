@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Figtree;
+}
+
+body{
+    background-color:  hsl(47, 88%, 63%)
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.holder{
+  position: relative;
+  border: 2px solid black;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 25px;
+  overflow: hidden;
+  padding:  23px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow:  8px 8px 10px rgba(0,0,0,15);
+}
+
+.top{
+    overflow: hidden;
+}
+
+.top img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+.bottom{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.bottom #head{
+    background-color: hsl(47, 88%, 63%) ;
+    width: 90px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#head h1{
+    font-weight: boldz;
+}
+
+
+.bottom h2{
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.bottom #desc{
+    margin-top: 15px;
+    font-size: 1 rem;
+    opacity: .6;
+}
+
+
+#profile{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+}
+
+#profile img{
+    height: 30px;
+    margin-right:10px;
+}
+
+#profile span{
+    font-weight: bold;
+}
